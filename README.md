@@ -25,7 +25,7 @@ Ouvrir le dossier du projet dans Visual Studio Code et lancer index.html avec l�
 
 ## Dépôt GitHub
 
-[Consulter le dépôt Github] (https://github.com/YvanEngo/Devoir-Cinema-Js)
+Consulter le dépôt Github: https://github.com/YvanEngo/Devoir-Cinema-Js
 
 ## Branches Git
 
