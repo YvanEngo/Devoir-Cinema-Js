@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link rel="stylesheet" href="search.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="../index.html"><img class="navlogo" src="../resources/2.PNG" alt="Le logo du cinema"></a>
+            <ul class="navlist">
+                <li><a href="#">Search</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1 class="heroTitle">Trouvez Votre Film</h1>
+            <p>Recherchez un titre et découvrez votre prochain coup de coeur</p>
+            <form class="movieSearchForm" action="">
+                <label class="searchBarLabel" for="searchbar">barre de recherche</label>
+                <input id="searchbar" type="searchbar" name="searchbar" placeholder="Effectuer une recherche">
+            </form>
+        </section>
+        <section class="movieResultsSection">
+            <h2>Resultats </h2>
+            <div id="searchResults">
+            </div>
+        </section>
+        <button id="afficherPlus">Afficher plus</button>
+    </main>
+    <footer>
+        <div class="footerContainer">
+            <section class="siteDescription">
+                <h3>Le Cinéma du Petit Village</h3>
+                <p>Découvrez des films, explorez de nouvelles histoires et trouvez votre prochain coup de coeur</p>
+            </section>
+            <nav class="footerNavigation">
+                <h3>Site</h3>
+                <ul class="footerNavigationList">
+                    <li><a href="../index.html">Accueil</a></li>
+                    <li><a href="#">Rechercher un film</a></li>
+                </ul>
+            </nav>
+            <section class="footerAbout">
+                <h3>A propos</h3>
+                <p>Un projet de découverte du cinéma réalisé avec HTML,CSS et Javascript.</p>
+            </section>
+            <div class="legalCredit">
+                <p>© 2026 Le Cinéma du Petit Village.</p>
+                <p>Données des films fournies par OMDB API.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="search.js"></script>
+</body>
+</html>
